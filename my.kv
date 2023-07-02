@@ -1,0 +1,72 @@
+
+<Container>:
+    orientation: 'vertical'
+
+    label: label
+    text_input: text_input
+
+    Label:
+        id: label
+        text:'pushing p'
+        color: '#ffffff'
+
+    TextInput:
+        id: text_input
+        multiline: False
+        font_size: 20
+
+    Button:
+        background_normal: ''
+        background_color: '#ff0000'
+        color_name: 'красный'
+
+        on_press: 
+            root.button_click(self.background_color, self.color_name)
+    
+    Button:        
+        background_normal: ''
+        background_color: '#ff8800'
+        color_name: 'оранжевый'
+
+        on_press: 
+            root.button_click(self.background_color, self.color_name)
+
+    Button:       
+        background_normal: ''
+        background_color: '#ffff00'
+        color_name: 'желтый'
+
+        on_press: 
+            root.button_click(self.background_color, self.color_name)
+
+    Button:       
+        background_normal: ''
+        background_color: '#00ff00'
+        color_name: 'зеленый'
+
+        on_press: 
+            root.button_click(self.background_color, self.color_name)
+
+    Button:        
+        background_normal: ''
+        background_color: '#00ffff'
+        color_name: 'голубой'
+
+        on_press: 
+            root.button_click(self.background_color, self.color_name)
+        
+    Button:       
+        background_normal: ''
+        background_color: '#0000ff'
+        color_name: 'синий'
+
+        on_press: 
+            root.button_click(self.background_color, self.color_name)
+
+    Button:       
+        background_normal: ''
+        background_color: '#ff00ff'
+        color_name: 'фиолетовый'
+
+        on_press: 
+            root.button_click(self.background_color, self.color_name)
